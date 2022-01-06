@@ -1,0 +1,26 @@
+@import '../../../styles/Responsive.scss';
+@import '../../../styles/App.scss';
+
+.loader {
+    width: 4rem;
+    height: 4rem;
+    padding: 2rem;
+    border-radius: 50%;
+    border: 0.5rem solid $Oxford_Blue_2;
+    border-right: 0.5rem solid $Manatee;
+
+    animation: ld-rotate 1.2s linear infinite;
+
+    @include media(pc) {
+      
+    }
+    
+    @keyframes ld-rotate {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+}

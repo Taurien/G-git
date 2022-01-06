@@ -1,0 +1,11 @@
+@import '../../../styles/App.scss';
+@import '../../../styles/Responsive.scss';
+
+.ibanner {
+    width: 80%;
+    text-align: center;
+
+    @include media(pc) {
+        width: 40%;
+    }
+}

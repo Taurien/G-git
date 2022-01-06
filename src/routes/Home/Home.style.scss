@@ -1,0 +1,11 @@
+@import '../../styles/Responsive.scss';
+
+.home {
+
+    .test789 {
+        
+        @include media(pc) {
+            //height: 35rem;
+        }
+    }
+}

@@ -1,0 +1,51 @@
+$True_Blue: #0466c8;
+$USAFA_Blue: #0353a4;
+$Dark_Cornflower_Blue: #023e7d;
+$Oxford_Blue: #002855;
+$Oxford_Blue_2: #001845;
+$Oxford_Blue_3: #001233;
+$Independence: #33415c;
+$Black_Coral: #5c677d;
+$Roman_Silver: #7d8597;
+$Manatee: #979dac;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    //user-select: none;
+    text-decoration: none;
+    order: 1px solid red;
+}
+
+*::-webkit-scrollbar {
+    width: 1rem;
+}   
+*::-webkit-scrollbar-track {
+    background-color: rgb(216, 216, 216);
+}
+*::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius: 0.5rem;
+}
+
+html {
+    font-size: 62.5%;
+    
+    body {
+        background-color: #e0e0e0;
+        
+        .btn-style {
+            position: absolute;
+            bottom: 1.5rem;
+            //background-color: salmon;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            //background: linear-gradient(145deg, #f0f0f0, #cacaca);
+            //box-shadow:  20px 20px 60px #bebebe,
+                        //-20px -20px 60px #ffffff;
+        }
+    }
+
+}

@@ -1,0 +1,93 @@
+@import '../../../styles/Responsive.scss';
+@import '../../../styles/App.scss';
+
+.usercard {
+    width: 70%;
+    padding: 1rem;
+    overflow: hidden;
+    border-radius: 1.5rem;
+    border-top: 3px solid #002855;
+    background-color: rgba($color: $True_Blue, $alpha: 0.2);
+    
+    @include media(pc) {
+        width: 35%;
+        //padding: 1rem;
+    }
+    
+    .greenDot, .redDot {
+        padding: 0.3rem 1rem;
+        border-radius: 2rem;
+        color: white;
+    }
+
+    .greenDot {
+        background-color: green;
+    }
+    .redDot {
+        background-color: red;
+    }
+
+    span, img, .numbers, button {
+        margin: 0.5rem 0;
+
+        @include media(pc) {
+            margin: 0.6rem 0;
+        }
+    }
+
+    span {
+        font-size: 1.25rem;
+    }
+
+    img {
+        width: 50%;
+        border-radius: 50%;
+        
+        @include media(pc) {
+            width: 40%;
+        }
+    }
+
+    .numbers {
+        width: 20rem;
+
+        @include media(pc) {
+        
+        }
+        span {
+            width: 6rem;
+            background-color: rgba($color: $USAFA_Blue, $alpha: 0.3);
+            border-radius: 0.5rem;
+            padding: 0.4rem 0;
+            
+            @include media(pc) {
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    a, button {
+        border-radius: 2rem;
+        background-color: rgba($color: $True_Blue, $alpha: 0.8);
+        color: white;
+    }
+
+    a {
+        padding: 0.4rem 1.6rem;
+    }
+
+    button {
+        padding: 0.6rem 1.4rem;
+
+        @include media(pc) {
+        }
+    }
+}
+
+.cardEffect {
+    box-shadow: 0px 30px 40px -20px rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+}

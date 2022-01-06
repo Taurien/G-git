@@ -1,0 +1,23 @@
+@import '../../../styles/App.scss';
+
+.repolink {
+    //width: 80%;
+    //height: 80%;
+
+    .reposcard {
+        font-size: 1rem;
+        border-radius: 0.6rem;
+        justify-content: space-around;
+        padding: 0 0.5rem;
+
+        border-bottom: 2px solid $Dark_Cornflower_Blue;
+        border-right: 2px solid $Dark_Cornflower_Blue;
+        background-color: rgba($color: $True_Blue, $alpha: 0.35);
+
+        p {
+            text-align: center;
+            margin: 0.35rem 0;
+            padding: 0 0;
+        }
+    }
+}

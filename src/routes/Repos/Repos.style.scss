@@ -1,0 +1,28 @@
+@import '../../styles/Responsive.scss';
+
+.repos {
+    height: 100%;
+    
+    .reposCtn {
+        background-color: rgba(190, 190, 190, 0.25);
+        border-radius: 2rem 0 0 2rem;
+        overflow-y: scroll;
+        height: 75vh;
+        width: 90%;
+        padding: 1rem 1rem;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem 2rem;
+
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+
+        @include media(pc) {
+    
+        }
+    }
+
+    button {
+        //background-color: salmon;
+    }
+}

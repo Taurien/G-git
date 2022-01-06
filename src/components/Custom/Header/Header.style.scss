@@ -1,0 +1,28 @@
+.head {
+    padding: 0.8rem 2rem;
+
+    box-shadow: 0px 10px 30px -10px rgba(0, 0, 0, 0.75);
+
+    .int {
+
+        img {
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        h1 {
+            font-family: 'Asap', sans-serif;
+            font-size: 1.6rem;
+            font-weight: bold;
+    
+            span {
+                color: white;
+            }
+        }
+    }
+
+    img {
+        width: 3.5rem;
+    }
+}
